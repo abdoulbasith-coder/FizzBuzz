@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fizz Buzz</string>
+    <string name="entier_1">Insérer entier</string>
+    <string name="entier_2">Insérer entier</string>
+    <string name="limite">Insérer limite</string>
+    <string name="char_1">Insérer texte</string>
+    <string name="char_2">Insérer texte</string>
+    <string name="btn_valider">Valider</string>
+    <string name="int1">int1</string>
+    <string name="int2">int2</string>
+    <string name="limit">limit</string>
+    <string name="str1">str1</string>
+    <string name="str2">str2</string>
+</resources>
