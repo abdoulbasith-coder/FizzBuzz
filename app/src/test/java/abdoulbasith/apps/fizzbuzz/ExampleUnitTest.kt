@@ -10,8 +10,16 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest {
+
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun fizzBuzzTest(){
+        val stringList = Utils().fizzBuzz(3, 5, 100, "fizz", "buzz")
+
+        assertEquals("fizz", stringList[2])
+        assertEquals("buzz", stringList[4])
+        assertEquals("fizzbuzz", stringList[14])
+        assertEquals(100, stringList.size)
+
     }
+
 }

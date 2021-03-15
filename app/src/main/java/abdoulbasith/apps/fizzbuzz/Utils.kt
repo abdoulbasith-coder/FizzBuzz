@@ -2,6 +2,15 @@ package abdoulbasith.apps.fizzbuzz
 
 class Utils {
 
+    /**
+     * int1: First integer
+     * int2: Second integer
+     * limit: limit of the loop
+     * str1: First string
+     * str2: Second String
+     *
+     * return: ArrayList<String>
+     */
     fun fizzBuzz(int1: Int, int2: Int, limit: Int, str1: String, str2: String): ArrayList<String>{
 
         val stringList = arrayListOf<String>()
