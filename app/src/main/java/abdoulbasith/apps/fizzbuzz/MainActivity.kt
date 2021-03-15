@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val editStr2 = findViewById<EditText>(R.id.edit_str2)
         val btnValider = findViewById<Button>(R.id.valider_formulaire)
 
+        // Adding limitations to the fields
         editInt1.filters = arrayOf<InputFilter>(MinMaxFilter("1", "10"))
         editInt2.filters = arrayOf<InputFilter>(MinMaxFilter("1", "10"))
         editLimit.filters = arrayOf<InputFilter>(MinMaxFilter("1", "100"))
